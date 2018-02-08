@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import UploadAvatar from './upload/upload';
+
 class App extends Component {
   render() {
     return (
@@ -16,6 +18,10 @@ class App extends Component {
         <p className="App-intro">
           Test Auto deploy
         </p>
+        <div> 
+          <UploadAvatar /> 
+        </div> 
+
       </div>
     );
   }
