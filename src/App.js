@@ -7,12 +7,22 @@ import Home  from './layout/home';
 class App extends Component {
   render() {
     return (
-      <Router>
-        <main>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/users" component={Users} />
-        </main>
-      </Router>
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to React</h1>
+        </header>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+        <p className="App-intro">
+          Test Auto deploy 6
+        </p>
+        <div> 
+          <UploadAvatar /> 
+        </div> 
+
+      </div>
     );
   }
 }
